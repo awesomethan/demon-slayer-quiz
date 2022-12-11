@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    font-size: 35px;
+}
+
+.question-text {
+    font-size: 30px;
+}
+
+.message {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 75%;
+    padding: 5vh 3vw;
+    margin-bottom: 8vh;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px;
+    position: relative;
+}
+
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-color: grey;
+    font-size: 1.25rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    border: solid;
+}
+
+.button.correct {
+    background-color: hsl(120, 100%, 50%);
+}
+
+.button.wrong {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button, .next-button, .finish-button {
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 2vh;
+}
+
+.question-count {
+    font-size: 16px;
+    position: absolute;
+    right: 3vw;
+    bottom: 2vh;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="images/tab-icon.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Demon Slayer Quiz</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <p class="text" id="text">
+        Welcome to Ethan's Demon Slayer Quiz! Being the Demon Slayer simp I am,
+        I decided to make this quiz, with my very own questions! There are 17
+        questions in this quiz, where each question has 4 options and 1 correct
+        answer. Try to answer as many questions correctly as possible!
+      </p>
+      <div class="hide" id="questionContainer">
+        <div class="text question-text" id="question">Question</div>
+        <div class="answer-buttons" id="answerButtons">
+          <button class="button">Answer 1</button>
+          <button class="button">Answer 2</button>
+          <button class="button">Answer 3</button>
+          <button class="button">Answer 4</button>
+        </div>
+      </div>
+      <p class="text message" id="message"></p>
+      <div class="controls">
+        <button class="start-button button" id="startButton">Start</button>
+        <button class="next-button button hide" id="nextButton">Next</button>
+        <button class="finish-button button hide" id="finishButton">
+          Finish
+        </button>
+      </div>
+      <p class="text question-count" id="questionCount"></p>
+    </div>
+  </body>
+</html>
