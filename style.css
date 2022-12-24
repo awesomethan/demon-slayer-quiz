@@ -15,6 +15,15 @@ body {
     background-size: cover;
 }
 
+.logo {
+    width: 4vw;
+    height: 8vh;
+    background-size: cover;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+
 .text {
     text-align: center;
     line-height: 1.5;
